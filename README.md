@@ -19,7 +19,7 @@ blabla is a repo containing java sources for a monolith app that mow lawns with:
 It's based on spring boot, it contains some integration and unit tests.
 
 # How to test ?! #
-When BlablaMowerApplication is a spring boot app that will read the file pass and log the Mow result.
+BlablaMowerApplication is a spring boot app which reads the passed file and log the Mow result.
 
 ## With docker ##
 With docker, go fast
