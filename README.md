@@ -4,6 +4,7 @@
   * Javadoc: [http://blabladoc.github.io/apidocs/index.html](https://slimee.github.io/blabladoc.github.io/apidocs)
   * test Javadoc: [http://blabladoc.github.io/testapidocs/index.html](https://slimee.github.io/blabladoc.github.io/testapidocs)
   * Project infos: [http://blabladoc.github.io](https://slimee.github.io/blabladoc.github.io/)
+  * Docker hub: [blabla docker hub](https://cloud.docker.com/u/blueforest/repository/docker/blueforest/blabla)
 
 # Description #
 blabla is a repo containing java sources for a monolith app that mow lawns with:
@@ -17,13 +18,7 @@ blabla is a repo containing java sources for a monolith app that mow lawns with:
 
 It's based on spring boot, it contains some integration and unit tests.
 
-# Docker Hub #
-A docker image is available here:
-
-https://cloud.docker.com/u/blueforest/repository/docker/blueforest/blabla
-
-
-# How to test ? #
+# How to test ?! #
 
 ## With docker ##
 With docker, go fast
