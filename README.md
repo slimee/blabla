@@ -1,8 +1,9 @@
 # Description #
 blabla is a repo containing ann app that mow lawns.
+You MUST provide a --file argument with the path of the file you want to use.
+The file MUST be well formatted with the WorldMowerFormat.
 
-It's based on spring boot.
-
+It's based on spring boot, it contains some integration and unit tests.
 
 # Docker Hub #
 A docker image is available here:
