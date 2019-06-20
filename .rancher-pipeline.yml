@@ -1,0 +1,14 @@
+stages:
+- name: Build
+  steps:
+  - runScriptConfig:
+      image: maven:3-jdk-8
+      shellScript: mvn clean install
+- name: Publish
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: blueforest/blabla:${CICD_EXECUTION_SEQUENCE}
+      pushRemote: true
+      registry: index.docker.io
