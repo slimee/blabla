@@ -31,7 +31,7 @@ With docker, go fast
 docker run -v /path/to/sample.world:/sample.world blueforest/blabla:1 --file=/sample.world
 ```
 
-## Building from sources with maven ##
+## From sources ##
 From sources, go fast too with jdk and maven :)
 
 ```
