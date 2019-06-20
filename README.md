@@ -1,3 +1,9 @@
+# Description #
+blabla is a repo containing ann app that mow lawns.
+
+It's based on spring boot.
+
+
 # Docker Hub #
 A docker image is available here:
 
