@@ -1,7 +1,12 @@
 # Description #
-blabla is a repo containing ann app that mow lawns.
-You MUST provide a --file argument with the path of the file you want to use.
-The file MUST be well formatted with the WorldMowerFormat.
+blabla is a repo containing java sources for a monolith app that mow lawns with:
+  * domains to model the business
+  * factories to create beans
+  * commands to run the worlds
+  * controllers to orchestrate commands
+
+  * You MUST provide a --file argument with the path of [the file you want to use](https://github.com/slimee/blabla/blob/master/simple.world).
+  * The file MUST be well formatted with the WorldMowerFormat.
 
 It's based on spring boot, it contains some integration and unit tests.
 
