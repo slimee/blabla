@@ -10,8 +10,7 @@ https://cloud.docker.com/u/blueforest/repository/docker/blueforest/blabla
 With docker, go fast
 
   * Get a file with content like in [sample.world](https://github.com/slimee/blabla/blob/master/simple.world)
-  * Replace "*/path/to*" by your sample.world file path
-  * Run it:
+  * Run the following after replacement of "*/path/to*" by your sample.world file path
   
 ```
 docker run -v /path/to/sample.world:/sample.world blueforest/blabla:1 --file=/sample.world
